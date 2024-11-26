@@ -21,6 +21,42 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+            /* General Animation */
+            @keyframes fadeIn {
+                from {
+                    opacity: 0;
+                }
+                to {
+                    opacity: 1;
+                }
+            }
+            
+            @keyframes zoomIn {
+                from {
+                    transform: scale(0.8);
+                    opacity: 0;
+                }
+                to {
+                    transform: scale(1);
+                    opacity: 1;
+                }
+            }
+            
+            /* Apply Animation to Elements */
+            .fade-in {
+                animation: fadeIn 2s ease-in-out;
+            }
+            
+            .zoom-in {
+                animation: zoomIn 1.5s ease-in-out;
+                transition: transform 0.3s ease-in-out;
+            }
+            
+            .zoom-in:hover {
+                transform: scale(1.1);
+            }
+            </style>
 </head>
 
 <body>
@@ -892,45 +928,44 @@
     <section class="trusted-brands-wrapper mb-5" style="background: #e4eaeeca;">
         <div class="container">
             <div class="trusted-brands p-5 mt-5">
-                <h2 class="h-font text-center s-color">Trusted by over 15,000 companies and millions of learners around
-                    the world</h2>
+                <h2 class="h-font text-center s-color fade-in">Trusted by over 15,000 companies and millions of learners around the world</h2>
                 <div class="brands mt-5 mb-5 d-flex justify-content-center flex-wrap">
-                    <div class="brand-img d-flex justify-content-center align-items-center"
+                    <div class="brand-img d-flex justify-content-center align-items-center zoom-in"
                         style="width: 15rem; height: 10rem;">
                         <img src="https://cms-images.udemycdn.com/content/tqevknj7om/svg/volkswagen_logo.svg?position=c&quality=80&x.app=portals"
                             alt="">
                     </div>
-                    <div class="brand-img d-flex justify-content-center align-items-center"
+                    <div class="brand-img d-flex justify-content-center align-items-center zoom-in"
                         style="width: 15rem; height: 10rem;">
                         <img
                             src="https://cms-images.udemycdn.com/content/2gevcc0kxt/svg/samsung_logo.svg?position=c&quality=80&x.app=portals">
                     </div>
-                    <div class="brand-img d-flex justify-content-center align-items-center"
+                    <div class="brand-img d-flex justify-content-center align-items-center zoom-in"
                         style="width: 15rem; height: 10rem;">
                         <img
                             src="https://cms-images.udemycdn.com/content/mueb2ve09x/svg/cisco_logo.svg?position=c&quality=80&x.app=portals">
                     </div>
-                    <div class="brand-img d-flex justify-content-center align-items-center"
+                    <div class="brand-img d-flex justify-content-center align-items-center zoom-in"
                         style="width: 15rem; height: 10rem;">
                         <img
                             src="https://cms-images.udemycdn.com/content/ryaowrcjb2/svg/vimeo_logo_resized-2.svg?position=c&quality=80&x.app=portals">
                     </div>
-                    <div class="brand-img d-flex justify-content-center align-items-center"
+                    <div class="brand-img d-flex justify-content-center align-items-center zoom-in"
                         style="width: 15rem; height: 10rem;">
                         <img
                             src="https://cms-images.udemycdn.com/content/bthyo156te/svg/procter_gamble_logo.svg?position=c&quality=80&x.app=portals">
                     </div>
-                    <div class="brand-img d-flex justify-content-center align-items-center"
+                    <div class="brand-img d-flex justify-content-center align-items-center zoom-in"
                         style="width: 15rem; height: 10rem;">
                         <img
                             src="https://cms-images.udemycdn.com/content/luqe0d6mx2/svg/hewlett_packard_enterprise_logo.svg?position=c&quality=80&x.app=portals">
                     </div>
-                    <div class="brand-img d-flex justify-content-center align-items-center"
+                    <div class="brand-img d-flex justify-content-center align-items-center zoom-in"
                         style="width: 15rem; height: 10rem;">
                         <img
                             src="https://cms-images.udemycdn.com/content/siaewwmkch/svg/citi_logo.svg?position=c&quality=80&x.app=portals">
                     </div>
-                    <div class="brand-img d-flex justify-content-center align-items-center"
+                    <div class="brand-img d-flex justify-content-center align-items-center zoom-in"
                         style="width: 15rem; height: 10rem;">
                         <img
                             src="https://cms-images.udemycdn.com/content/swmv0okrlh/svg/ericsson_logo.svg?position=c&quality=80&x.app=portals">
@@ -939,6 +974,7 @@
             </div>
         </div>
     </section>
+    
     <!-- Brand Section End -->
     <!--  -------------------------------------------------------  -->
 
@@ -13346,23 +13382,21 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-lg-12 text-start">
-                    <h1 class="display-2 mt-5 fw-bolder mb-2">Accelerate growth — for you or your organization</h1>
-                    <p class="fs-2 mt-4 text-black fw-light">Reach goals faster with one of our plans or programs. Try
-                        one free today or contact sales to learn more.</p>
+                    <h1 class="display-2 mt-5 fw-bolder mb-2 fade-in">Accelerate growth — for you or your organization</h1>
+                    <p class="fs-2 mt-4 text-black fw-light fade-in">Reach goals faster with one of our plans or programs. Try one free today or contact sales to learn more.</p>
                 </div>
             </div>
         </div>
         <div class="container d-lg-block d-none">
             <div class="d-flex justify-content-around mt-5">
                 <!-- Personal Plan -->
-                <div class="plan-1  rounded-4 p-5 text-start"
+                <div class="plan-1 rounded-4 p-5 text-start zoom-in"
                     style="width: 30%; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); border-top: 10px solid #A435F0;">
                     <div>
                         <h2 class="text-black m-0 display-4 fw-bold">Personal Plan</h2>
                         <p class="text-black m-0 fs-4">For you</p>
                         <div class="mt-4">
-                            <p class="text-black fs-3"><i class="fa-solid fa-user"
-                                    style="margin-right: 1rem;"></i>Individual</p>
+                            <p class="text-black fs-3"><i class="fa-solid fa-user" style="margin-right: 1rem;"></i>Individual</p>
                         </div>
                     </div>
                     <div class="plan-body" style="margin-top: 3rem;">
@@ -13382,25 +13416,22 @@
                         </ul>
                     </div>
                 </div>
-
+    
                 <!-- Team Plan -->
-                <!-- Personal Plan -->
-                <div class="plan-1 rounded-4 p-5 text-start"
+                <div class="plan-1 rounded-4 p-5 text-start zoom-in"
                     style="width: 30%; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); border-top: 10px solid #5022C3;">
                     <div>
                         <h2 class="text-black m-0 display-4 fw-bold">Team Plan</h2>
                         <p class="text-black m-0 fs-4">For your team</p>
                         <div class="mt-4">
-                            <p class="text-black fs-3"><i class="fa-solid fa-user" style="margin-right: 1rem;"></i>2 to
-                                20 people</p>
+                            <p class="text-black fs-3"><i class="fa-solid fa-user" style="margin-right: 1rem;"></i>2 to 20 people</p>
                         </div>
                     </div>
                     <div class="plan-body" style="margin-top: 3rem;">
                         <p class="price text-black fs-4 fw-bold m-0">₹1,167 a month per user</p>
                         <p class="text-black mb-4">Billed annually. Cancel anytime.</p>
                         <button class="subscribe-btn bg-black text-white border-0 py-3 px-4 fs-3 rounded-4 w-100"
-                            style="height: 48px;">Start subscription <i
-                                class="fa-solid fa-arrow-right-long"></i></button>
+                            style="height: 48px;">Start subscription <i class="fa-solid fa-arrow-right-long"></i></button>
                         <ul class="features list-unstyled p-0 mt-4 mb-0 me-0 ms-0">
                             <li class="text-black my-3 mx-0 fs-4">Access to 12,000+ top courses</li>
                             <li class="text-black my-3 mx-0 fs-4">Certification prep</li>
@@ -13410,24 +13441,22 @@
                         </ul>
                     </div>
                 </div>
+    
                 <!-- Enterprise Plan -->
-                <div class="plan-1 rounded-4 p-5 text-start"
+                <div class="plan-1 rounded-4 p-5 text-start zoom-in"
                     style="width: 30%; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); border-top: 10px solid #5022C3;">
                     <div>
                         <h2 class="text-black m-0 display-4 fw-bold">Enterprise Plan</h2>
                         <p class="text-black m-0 fs-4">For your whole organization</p>
                         <div class="mt-4">
-                            <p class="text-black fs-3"><i class="fa-solid fa-user" style="margin-right: 1rem;"></i>More
-                                than 20 people</p>
+                            <p class="text-black fs-3"><i class="fa-solid fa-user" style="margin-right: 1rem;"></i>More than 20 people</p>
                         </div>
                     </div>
                     <div class="plan-body" style="margin-top: 3rem;">
                         <p class="price text-black fs-4 fw-bold m-0">Contact sales for pricing</p>
-                        <p class="text-white mb-4">Billed monthly or annually. Cancel anytime.</p>
                         <a href="Telcovas_Business.html" class="text-decoration-none">
                             <button class="subscribe-btn bg-black text-white border-0 py-3 px-4 fs-3 rounded-4 w-100"
-                                style="height: 48px;">Request a demo <i
-                                    class="fa-solid fa-arrow-right-long"></i></button>
+                                style="height: 48px;">Request a demo <i class="fa-solid fa-arrow-right-long"></i></button>
                         </a>
                         <ul class="features list-unstyled p-0 mt-4 mb-0 me-0 ms-0">
                             <li class="text-black my-3 mx-0 fs-4">Access to 27,000+ top courses</li>
@@ -13436,8 +13465,7 @@
                             <li class="text-black my-3 mx-0 fs-4">AI-powered coding exercises</li>
                             <li class="text-black my-3 mx-0 fs-4">Advanced analytics and insights</li>
                             <li class="text-black my-3 mx-0 fs-4">Dedicated customer success team</li>
-                            <li class="text-black my-3 mx-0 fs-4">International course collection featuring 15 languages
-                            </li>
+                            <li class="text-black my-3 mx-0 fs-4">International course collection featuring 15 languages</li>
                             <li class="text-black my-3 mx-0 fs-4">Customizable content</li>
                             <li class="text-black my-3 mx-0 fs-4">Hands-on tech training with add-on</li>
                             <li class="text-black my-3 mx-0 fs-4">Strategic implementation services with add-on</li>
@@ -14492,15 +14520,15 @@
                     <div class="col-md-3 col-12">
                         <h2 class="mb-4">Certifications by Issuer</h2>
                         <ul class="p-0 m-3 flex-grow-1 list-unstyled">
-                            <li class="mb-3"><a href="#" class="text-white text-decoration-none fs-4">Amazon Web
+                            <li class="mb-3"><a href="certification-aws.html" class="text-white text-decoration-none fs-4">Amazon Web
                                     Services (AWS) Certifications</a></li>
-                            <li class="mb-3"><a href="#" class="text-white text-decoration-none fs-4">Six Sigma
+                            <li class="mb-3"><a href="certification-six-sigma.html" class="text-white text-decoration-none fs-4">Six Sigma
                                     Certifications</a></li>
-                            <li class="mb-3"><a href="#" class="text-white text-decoration-none fs-4">Microsoft
+                            <li class="mb-3"><a href="certification-microsoft.html" class="text-white text-decoration-none fs-4">Microsoft
                                     Certifications</a></li>
-                            <li class="mb-3"><a href="#" class="text-white text-decoration-none fs-4">Cisco
+                            <li class="mb-3"><a href="certification-cisco.html" class="text-white text-decoration-none fs-4">Cisco
                                     Certifications</a></li>
-                            <li class="mb-3"><a href="#" class="text-white text-decoration-none fs-4">Tableau
+                            <li class="mb-3"><a href="certification-tableau.html" class="text-white text-decoration-none fs-4">Tableau
                                     Certifications</a></li>
                             <li class="mb-3"><a href="#" class="text-white text-decoration-none fs-4">See all
                                     Certifications</a></li>
@@ -14509,41 +14537,41 @@
                     <div class="col-md-3 col-12">
                         <h2 class="mb-4">Web Development</h2>
                         <ul class="p-0 m-3 flex-grow-1 list-unstyled">
-                            <li class="mb-3"><a href="#" class="text-white text-decoration-none fs-4">Web
+                            <li class="mb-3"><a href="topic_web_Development.html" class="text-white text-decoration-none fs-4">Web
                                     Development</a></li>
-                            <li class="mb-3"><a href="#" class="text-white text-decoration-none fs-4">JavaScript</a>
+                            <li class="mb-3"><a href="topic-javascript.html" class="text-white text-decoration-none fs-4">JavaScript</a>
                             </li>
-                            <li class="mb-3"><a href="#" class="text-white text-decoration-none fs-4">React JS</a></li>
-                            <li class="mb-3"><a href="#" class="text-white text-decoration-none fs-4">Angular</a></li>
-                            <li class="mb-3"><a href="#" class="text-white text-decoration-none fs-4">Java</a></li>
+                            <li class="mb-3"><a href="topic-reactjs.html" class="text-white text-decoration-none fs-4">React JS</a></li>
+                            <li class="mb-3"><a href="topic-angular.html" class="text-white text-decoration-none fs-4">Angular</a></li>
+                            <li class="mb-3"><a href="topic-java.html" class="text-white text-decoration-none fs-4">Java</a></li>
                     </div>
                     <div class="col-md-3 col-12">
                         <h2 class="mb-4">IT Certifications</h2>
                         <ul class="p-0 m-3 flex-grow-1 list-unstyled">
-                            <li class="mb-3"><a href="#" class="text-white text-decoration-none fs-4">Amazon AWS</a>
+                            <li class="mb-3"><a href="topic-aws.html" class="text-white text-decoration-none fs-4">Amazon AWS</a>
                             </li>
-                            <li class="mb-3"><a href="#" class="text-white text-decoration-none fs-4">AWS Certified
+                            <li class="mb-3"><a href="topic-AWS Certified Cloud Practitioner Courses.html" class="text-white text-decoration-none fs-4">AWS Certified
                                     Cloud Practitioner</a></li>
-                            <li class="mb-3"><a href="#" class="text-white text-decoration-none fs-4">AZ-900: Microsoft
+                            <li class="mb-3"><a href="topic-Microsoft Certified-Azure Fundamentals Courses.html" class="text-white text-decoration-none fs-4">AZ-900: Microsoft
                                     Azure Fundamentals</a></li>
-                            <li class="mb-3"><a href="#" class="text-white text-decoration-none fs-4">AWS Certified
+                            <li class="mb-3"><a href="topic-AWS Certified Solutions Architect – Associate Courses.html" class="text-white text-decoration-none fs-4">AWS Certified
                                     Solutions Architect - Associate</a></li>
-                            <li class="mb-3"><a href="#" class="text-white text-decoration-none fs-4">Kubernetes</a>
+                            <li class="mb-3"><a href="topic-Kubernetes Courses.html" class="text-white text-decoration-none fs-4">Kubernetes</a>
                             </li>
                         </ul>
                     </div>
                     <div class="col-md-3 col-12">
                         <h2 class="mb-4">Leadership</h2>
                         <ul class="p-0 m-3 flex-grow-1 list-unstyled">
-                            <li class="mb-3"><a href="#" class="text-white text-decoration-none fs-4">Leadership</a>
+                            <li class="mb-3"><a href="topic-Leadership Courses.html" class="text-white text-decoration-none fs-4">Leadership</a>
                             </li>
-                            <li class="mb-3"><a href="#" class="text-white text-decoration-none fs-4">Management
+                            <li class="mb-3"><a href="topic-Management Skills Courses.html" class="text-white text-decoration-none fs-4">Management
                                     Skills</a></li>
-                            <li class="mb-3"><a href="#" class="text-white text-decoration-none fs-4">Project
+                            <li class="mb-3"><a href="topic_project_management.html" class="text-white text-decoration-none fs-4">Project
                                     Management</a></li>
-                            <li class="mb-3"><a href="#" class="text-white text-decoration-none fs-4">Personal
+                            <li class="mb-3"><a href="topic-Personal Productivity Courses.html" class="text-white text-decoration-none fs-4">Personal
                                     Productivity</a></li>
-                            <li class="mb-3"><a href="#" class="text-white text-decoration-none fs-4">Emotional
+                            <li class="mb-3"><a href="topic-Emotional Intelligence Courses.html" class="text-white text-decoration-none fs-4">Emotional
                                     Intelligence</a></li>
                         </ul>
                     </div>
@@ -14555,15 +14583,15 @@
                     <div class="col-md-3 col-12">
                         <h2 class="mb-4">Certifications by Skill</h2>
                         <ul class="p-0 m-3 flex-grow-1 list-unstyled">
-                            <li class="mb-3"><a href="#" class="text-white text-decoration-none fs-4">Cybersecurity
+                            <li class="mb-3"><a href="certification-cybersecurity.html" class="text-white text-decoration-none fs-4">Cybersecurity
                                     Certification</a></li>
-                            <li class="mb-3"><a href="#" class="text-white text-decoration-none fs-4">Project Management
+                            <li class="mb-3"><a href="certification-project-management.html" class="text-white text-decoration-none fs-4">Project Management
                                     Certification</a></li>
-                            <li class="mb-3"><a href="#" class="text-white text-decoration-none fs-4">Cloud
+                            <li class="mb-3"><a href="certification-cloud.html" class="text-white text-decoration-none fs-4">Cloud
                                     Certification</a></li>
-                            <li class="mb-3"><a href="#" class="text-white text-decoration-none fs-4">Data Analytics
+                            <li class="mb-3"><a href="certification-Data Analytics Certification Courses.html" class="text-white text-decoration-none fs-4">Data Analytics
                                     Certification</a></li>
-                            <li class="mb-3"><a href="#" class="text-white text-decoration-none fs-4">HR Management
+                            <li class="mb-3"><a href="certification-HR Management Certification Courses.html" class="text-white text-decoration-none fs-4">HR Management
                                     Certification</a></li>
                             <li class="mb-3"><a href="#" class="text-white text-decoration-none fs-4">See all
                                     Certifications</a></li>
@@ -14572,36 +14600,36 @@
                     <div class="col-md-3 col-12">
                         <h2 class="mb-4">Data Science</h2>
                         <ul class="p-0 m-3 flex-grow-1 list-unstyled">
-                            <li class="mb-3"><a href="#" class="text-white text-decoration-none fs-4">Data Science</a>
+                            <li class="mb-3"><a href="topic_Data_Science.html" class="text-white text-decoration-none fs-4">Data Science</a>
                             </li>
-                            <li class="mb-3"><a href="#" class="text-white text-decoration-none fs-4">Python</a></li>
-                            <li class="mb-3"><a href="#" class="text-white text-decoration-none fs-4">Machine
+                            <li class="mb-3"><a href="topic_python.html" class="text-white text-decoration-none fs-4">Python</a></li>
+                            <li class="mb-3"><a href="topic-Machine Learning Courses.html" class="text-white text-decoration-none fs-4">Machine
                                     Learning</a></li>
-                            <li class="mb-3"><a href="#" class="text-white text-decoration-none fs-4">ChatGPT</a></li>
-                            <li class="mb-3"><a href="#" class="text-white text-decoration-none fs-4">Deep Learning</a>
+                            <li class="mb-3"><a href="topic_chatGpt_courses.html" class="text-white text-decoration-none fs-4">ChatGPT</a></li>
+                            <li class="mb-3"><a href="topic-Deep Learning Courses.html" class="text-white text-decoration-none fs-4">Deep Learning</a>
                             </li>
                     </div>
                     <div class="col-md-3 col-12">
                         <h2 class="mb-4">Communication</h2>
                         <ul class="p-0 m-3 flex-grow-1 list-unstyled">
-                            <li class="mb-3"><a href="#" class="text-white text-decoration-none fs-4">Communication
+                            <li class="mb-3"><a href="topic-Communication Skills Courses.html" class="text-white text-decoration-none fs-4">Communication
                                     Skills</a></li>
-                            <li class="mb-3"><a href="#" class="text-white text-decoration-none fs-4">Presentation
+                            <li class="mb-3"><a href="topic-Presentation Skills Courses.html" class="text-white text-decoration-none fs-4">Presentation
                                     Skills</a></li>
-                            <li class="mb-3"><a href="#" class="text-white text-decoration-none fs-4">Public
+                            <li class="mb-3"><a href="topic-Public Speaking Courses.html" class="text-white text-decoration-none fs-4">Public
                                     Speaking</a></li>
-                            <li class="mb-3"><a href="#" class="text-white text-decoration-none fs-4">Writing</a></li>
-                            <li class="mb-3"><a href="#" class="text-white text-decoration-none fs-4">PowerPoint</a>
+                            <li class="mb-3"><a href="topic-Writing Courses.html" class="text-white text-decoration-none fs-4">Writing</a></li>
+                            <li class="mb-3"><a href="topic-PowerPoint Courses.html" class="text-white text-decoration-none fs-4">PowerPoint</a>
                             </li>
                         </ul>
                     </div>
                     <div class="col-md-3 col-12">
                         <h2 class="mb-4">Business Analytics & Intelligence</h2>
                         <ul class="p-0 m-3 flex-grow-1 list-unstyled">
-                            <li class="mb-3"><a href="#" class="text-white text-decoration-none fs-4">Microsoft
+                            <li class="mb-3"><a href="topic-Microsoft Excel Courses.html" class="text-white text-decoration-none fs-4">Microsoft
                                     Excel</a></li>
-                            <li class="mb-3"><a href="#" class="text-white text-decoration-none fs-4">SQL</a></li>
-                            <li class="mb-3"><a href="#" class="text-white text-decoration-none fs-4">Microsoft Power
+                            <li class="mb-3"><a href="topic-SQL Courses.html" class="text-white text-decoration-none fs-4">SQL</a></li>
+                            <li class="mb-3"><a href="topic-Microsoft Power BI Courses.html" class="text-white text-decoration-none fs-4">Microsoft Power
                                     BI</a></li>
                             <li class="mb-3"><a href="#" class="text-white text-decoration-none fs-4">Data Analysis</a>
                             </li>
