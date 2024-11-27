@@ -24,7 +24,8 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light h-100 py-4 d-flex align-items-center" style="
+    <!-- Main Header Start (Completed) -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light h-100 py-4 d-flex align-items-center" style=" box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 4px 12px rgba(0, 0, 0, 0.1);
     padding: 0 2.4rem;">
         <div class="container-fluid">
             <button id="menu" class="side-menu-opener bg-transparent border border-0 fs-1"><i
@@ -39,14 +40,128 @@
             <div class="dropdown">
                 <a class=" fs-5 fw-bolder text-secondary text-decoration-none me-3 d-none d-md-block" href="#"
                     role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                    Categories
+                    Explore
                 </a>
                 <!-- Main Dropdown Menu -->
                 <ul class="dropdown-list bg-white border border-1 border-white dropdown-menu"
                     aria-labelledby="dropdownMenuLink"
                     style="top: 256%; left: -32%; letter-spacing: 0.5; min-width: 20rem;">
                     <li class="dropdown-item">
-                        <a href="#"
+                        <a href="#" class="text-decoration-none fs-5 d-block py-3 px-4 text-black "
+                            style="letter-spacing: 0.5; min-width: 20rem;">
+                            <div>
+                                <h3>Browse Certification</h3>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h5>Certification Preparation</h5>
+                                <i class="fa-solid fa-caret-right"></i>
+                            </div>
+                        </a>
+                        <div class="divider w-100" style="height: 1px; background: #eee;"></div>
+                        <!-- Nested Dropdown Menu -->
+                        <ul class="dropdown-menu position-absolute nested-dropdown" style="top: 0; left: 100%;">
+                            <li class="text-decoration-none fs-5 d-block py-3 px-4 text-secondary "
+                                style="letter-spacing: 0.5; min-width: 20rem;">
+                                <h4>Popular Issuers</h4>
+                            </li>
+                            <li><a href="certification-aws.html"
+                                    class="dropdown-item d-block py-3 px-4 text-black fs-5 d-flex justify-content-between align-items-center"
+                                    style="letter-spacing: 0.5; min-width: 20rem;">
+                                    <h5>Amazon Web Services (AWS) Certification</h5>
+                                </a></li>
+                            <li><a href="certification-microsoft.html"
+                                    class="dropdown-item d-block py-3 px-4 text-black fs-5 d-flex justify-content-between align-items-center"
+                                    style="letter-spacing: 0.5; min-width: 20rem;">
+                                    <h5>Microsoft Certification</h5>
+
+                                </a></li>
+                            <li><a href="certification-cisco.html"
+                                    class="dropdown-item d-block py-3 px-4 text-black fs-5 d-flex justify-content-between align-items-center"
+                                    style="letter-spacing: 0.5; min-width: 20rem;">
+                                    <h5>Cisco Certification</h5>
+
+                                </a></li>
+                            <li><a href="certification-comptia.html"
+                                    class="dropdown-item d-block py-3 px-4 text-black fs-5 d-flex justify-content-between align-items-center"
+                                    style="letter-spacing: 0.5; min-width: 20rem;">
+                                    <h5>CompTIA Certification</h5>
+
+                                </a></li>
+                            <li><a href="certification-pmi.html"
+                                    class="dropdown-item d-block py-3 px-4 text-black fs-5 d-flex justify-content-between align-items-center"
+                                    style="letter-spacing: 0.5; min-width: 20rem;">
+                                    <h5>Project Management Institute (PMI) Certification</h5>
+
+                                </a></li>
+                            <li><a href="certification-google-cloud.html"
+                                    class="dropdown-item d-block py-3 px-4 text-black fs-5 d-flex justify-content-between align-items-center"
+                                    style="letter-spacing: 0.5; min-width: 20rem;">
+                                    <h5>Google Cloud Certification</h5>
+
+                                </a></li>
+                            <li><a href="certification-six-sigma.html"
+                                    class="dropdown-item d-block py-3 px-4 text-black fs-5 d-flex justify-content-between align-items-center"
+                                    style="letter-spacing: 0.5; min-width: 20rem;">
+                                    <h5>Six Sigma Certification</h5>
+
+                                </a></li>
+                            <li><a href="certification-oracle.html"
+                                    class="dropdown-item d-block py-3 px-4 text-black fs-5 d-flex justify-content-between align-items-center"
+                                    style="letter-spacing: 0.5; min-width: 20rem;">
+                                    <h5>Oracle Certification</h5>
+
+                                </a></li>
+                            <div class="divider w-100" style="height: 1px; background: #eee;"></div>
+                            <li class="text-decoration-none fs-5 d-block py-3 px-4 text-secondary "
+                                style="letter-spacing: 0.5; min-width: 20rem;">
+                                <h4>Popular Subjects</h4>
+                            </li>
+                            <li><a href="certification-cloud.html"
+                                    class="dropdown-item d-block py-3 px-4 text-black fs-5 d-flex justify-content-between align-items-center"
+                                    style="letter-spacing: 0.5; min-width: 20rem;">
+                                    <h5>Cloud Certification</h5>
+                                </a></li>
+                            <li><a href="certification-networking.html"
+                                    class="dropdown-item d-block py-3 px-4 text-black fs-5 d-flex justify-content-between align-items-center"
+                                    style="letter-spacing: 0.5; min-width: 20rem;">
+                                    <h5>Networking Certification</h5>
+
+                                </a></li>
+                            <li><a href="certification-cybersecurity.html"
+                                    class="dropdown-item d-block py-3 px-4 text-black fs-5 d-flex justify-content-between align-items-center"
+                                    style="letter-spacing: 0.5; min-width: 20rem;">
+                                    <h5>Cybersecurity Certification</h5>
+
+                                </a></li>
+                            <li><a href="certification-project-management.html"
+                                    class="dropdown-item d-block py-3 px-4 text-black fs-5 d-flex justify-content-between align-items-center"
+                                    style="letter-spacing: 0.5; min-width: 20rem;">
+                                    <h5>Project Management Certification</h5>
+                                </a></li>
+                            <li><a href="certification-devops.html"
+                                    class="dropdown-item d-block py-3 px-4 text-black fs-5 d-flex justify-content-between align-items-center"
+                                    style="letter-spacing: 0.5; min-width: 20rem;">
+                                    <h5>DevOps Certification</h5>
+                                </a></li>
+                            <li><a href="certification-codeing.html"
+                                    class="dropdown-item d-block py-3 px-4 text-black fs-5 d-flex justify-content-between align-items-center"
+                                    style="letter-spacing: 0.5; min-width: 20rem;">
+                                    <h5>Codeing Certification</h5>
+                                </a></li>
+                            <li><a href="certification-system-admin.html"
+                                    class="dropdown-item d-block py-3 px-4 text-black fs-5 d-flex justify-content-between align-items-center"
+                                    style="letter-spacing: 0.5; min-width: 20rem;">
+                                    <h5>System Administration Certification</h5>
+                                </a></li>
+                            <li><a href="certification-ai.html"
+                                    class="dropdown-item d-block py-3 px-4 text-black fs-5 d-flex justify-content-between align-items-center"
+                                    style="letter-spacing: 0.5; min-width: 20rem;">
+                                    <h5>Artificial Intelligence Certification</h5>
+                                </a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown-item">
+                        <a href="development.html"
                             class="d-flex justify-content-between align-items-center text-decoration-none fs-5 d-block py-3 px-4 text-black"
                             style="letter-spacing: 0.5; min-width: 20rem;">Development
                             <i class="fa-solid fa-caret-right"></i>
@@ -54,7 +169,7 @@
 
                         <!-- Nested Dropdown Menu -->
                         <ul class="dropdown-menu position-absolute nested-dropdown" style="top: 0; left: 100%;">
-                            <li><a href="#" class="dropdown-item d-block py-3 px-4 text-black fs-5"
+                            <li><a href="development.html" class="dropdown-item d-block py-3 px-4 text-black fs-5"
                                     style="letter-spacing: 0.5; min-width: 20rem;">
                                     Web Development
                                 </a></li>
@@ -82,7 +197,7 @@
 
                     <!-- Another Main Dropdown Item -->
                     <li class="dropdown-item">
-                        <a href="#"
+                        <a href="business.html"
                             class="d-flex justify-content-between align-items-center text-decoration-none fs-5 d-block py-3 px-4 text-black"
                             style="letter-spacing: 0.5; min-width: 20rem;">Business
                             <i class="fa-solid fa-caret-right"></i>
@@ -124,7 +239,7 @@
 
                     <!-- Another Main Dropdown Item -->
                     <li class="dropdown-item">
-                        <a href="#"
+                        <a href="finance_accounting.html"
                             class="d-flex justify-content-between align-items-center text-decoration-none fs-5 d-block py-3 px-4 text-black"
                             style="letter-spacing: 0.5; min-width: 20rem;">Finance & Accounting
                             <i class="fa-solid fa-caret-right"></i>
@@ -158,7 +273,7 @@
                         </ul>
                     </li>
                     <li class="dropdown-item">
-                        <a href="#"
+                        <a href="it_software.html"
                             class="d-flex justify-content-between align-items-center text-decoration-none fs-5 d-block py-3 px-4 text-black"
                             style="letter-spacing: 0.5; min-width: 20rem;">IT & Software
                             <i class="fa-solid fa-caret-right"></i>
@@ -179,7 +294,7 @@
                         </ul>
                     </li>
                     <li class="dropdown-item">
-                        <a href="#"
+                        <a href="office_productivity.html"
                             class="d-flex justify-content-between align-items-center text-decoration-none fs-5 d-block py-3 px-4 text-black"
                             style="letter-spacing: 0.5; min-width: 20rem;">Office Productivity
                             <i class="fa-solid fa-caret-right"></i>
@@ -203,7 +318,7 @@
                         </ul>
                     </li>
                     <li class="dropdown-item">
-                        <a href="#"
+                        <a href="personal_devlopment.html"
                             class="d-flex justify-content-between align-items-center text-decoration-none fs-5 d-block py-3 px-4 text-black"
                             style="letter-spacing: 0.5; min-width: 20rem;">Personal Development
                             <i class="fa-solid fa-caret-right"></i>
@@ -244,7 +359,7 @@
                         </ul>
                     </li>
                     <li class="dropdown-item">
-                        <a href="#"
+                        <a href="design.html"
                             class="d-flex justify-content-between align-items-center text-decoration-none fs-5 d-block py-3 px-4 text-black"
                             style="letter-spacing: 0.5; min-width: 20rem;">Design
                             <i class="fa-solid fa-caret-right"></i>
@@ -276,7 +391,7 @@
                         </ul>
                     </li>
                     <li class="dropdown-item">
-                        <a href="#"
+                        <a href="marketing.html"
                             class="d-flex justify-content-between align-items-center text-decoration-none fs-5 d-block py-3 px-4 text-black"
                             style="letter-spacing: 0.5; min-width: 20rem;">Marketing
                             <i class="fa-solid fa-caret-right"></i>
@@ -316,7 +431,7 @@
                         </ul>
                     </li>
                     <li class="dropdown-item">
-                        <a href="#"
+                        <a href="lifestyle.html"
                             class="d-flex justify-content-between align-items-center text-decoration-none fs-5 d-block py-3 px-4 text-black"
                             style="letter-spacing: 0.5; min-width: 20rem;">Lifestyle
                             <i class="fa-solid fa-caret-right"></i>
@@ -345,7 +460,7 @@
                         </ul>
                     </li>
                     <li class="dropdown-item">
-                        <a href="#"
+                        <a href="photography_video.html"
                             class="d-flex justify-content-between align-items-center text-decoration-none fs-5 d-block py-3 px-4 text-black"
                             style="letter-spacing: 0.5; min-width: 20rem;">Photography & Video
                             <i class="fa-solid fa-caret-right"></i>
@@ -370,7 +485,7 @@
                         </ul>
                     </li>
                     <li class="dropdown-item">
-                        <a href="#"
+                        <a href="helth_fitness.html"
                             class="d-flex justify-content-between align-items-center text-decoration-none fs-5 d-block py-3 px-4 text-black"
                             style="letter-spacing: 0.5; min-width: 20rem;">Health & Fitness
                             <i class="fa-solid fa-caret-right"></i>
@@ -403,7 +518,7 @@
                         </ul>
                     </li>
                     <li class="dropdown-item">
-                        <a href="#"
+                        <a href="music.html"
                             class="d-flex justify-content-between align-items-center text-decoration-none fs-5 d-block py-3 px-4 text-black"
                             style="letter-spacing: 0.5; min-width: 20rem;">Music
                             <i class="fa-solid fa-caret-right"></i>
@@ -429,7 +544,7 @@
                         </ul>
                     </li>
                     <li class="dropdown-item">
-                        <a href="#"
+                        <a href="teaching.html"
                             class="d-flex justify-content-between align-items-center text-decoration-none fs-5 d-block py-3 px-4 text-black"
                             style="letter-spacing: 0.5; min-width: 20rem;">Teaching & Academics
                             <i class="fa-solid fa-caret-right"></i>
@@ -491,24 +606,61 @@
                         </div>
                     </div>
                 </li>
-                <li
-                    class="nav-item mx-4 cursor-pointer nav-dropdown d-md-none d-sm-done d-lg-block list-unstyled position-relative">
-                    <div class="cart-icon fs-3">
-                        <span id="cart-count">0</span>
-                        <a href="#" class="text-decoration-none text-black cursor-pointer "><i
-                                class="fa-solid fa-cart-shopping cart"></i></a>
-                    </div>
-
-                    <div class="cart-dropdown">
-                        <div class="default-message">Your cart is empty</div>
-                        <div class="cart-items"></div>
-                        <div class="cart-total text-end fs-5">
-                            <p>Total: $<span id="total-price">0</span></p>
-                            <button id="checkout"
-                                class=" bg-primary text-white py-2 px-4 border-0 rounded-3 cursor-pointer ">Checkout</button>
+                <li class="nav-item nav-dropdown d-none d-lg-block mx-4 cursor-pointer list-unstyled position-relative">
+                    <span class="fs-5 fw-bolder "><a href="Tech_On_Telcovas.html"
+                            class="text-secondary text-decoration-none">Teach on Telcovas</a></span>
+                    <div class="dropdown-content right position-absolute py-5 px-0 z-1">
+                        <div class="dropdown-panel bg-white py-4 fs-3 px-2" style="min-width: 30rem;">
+                            <p class="p-font mb-2 text-center" style="font-weight: bolder;">Turn what you know into an
+                                opportunity and reach millions around the world.</p>
+                            <div>
+                                <a href="#"
+                                    class="btn reveres bg-black text-white fw-bolder d-flex align-items-center justify-content-center fs-4 border border-1 border-black"
+                                    style="letter-spacing: 1px; outline: none; margin: 0 0.3rem; min-width: 8rem; height: 4rem;">Learn
+                                    More</a>
+                            </div>
                         </div>
                     </div>
                 </li>
+                <li
+                class="nav-item mx-4 cursor-pointer nav-dropdown d-md-none d-sm-done d-lg-block list-unstyled position-relative">
+                <div class="cart-icon fs-3">
+                    <span id="cart-count">0</span>
+                    <a href="" class="text-decoration-none text-black cursor-pointer "><i
+                            class="fa-solid fa-cart-shopping cart"></i></a>
+                </div>
+
+                <div class="cart-dropdown ">
+                    <div class="default-message">Your cart is empty</div>
+                    <div class="cart-items"></div>
+                    <div class="cart-total text-end fs-5">
+                        <div class="total">
+                            <p>Total: <span class="total-price" id="total-price">₹0</span></p>
+                        </div>
+                        <a href="cart.html"><button class="cart-button" id="checkout">Go to cart</button></a>
+                    </div>
+                </div>
+                </li>
+                 <!-- -------Start  -->
+                 <script>
+                    document.addEventListener('DOMContentLoaded', () => {
+                        const cartIcon = document.querySelector('.cart-icon');
+                        const cartDropdown = document.querySelector('.cart-dropdown');
+
+                        // Toggle cart dropdown on click
+                        cartIcon.addEventListener('click', (e) => {
+                            e.preventDefault(); // Prevent default action of the link
+                            cartDropdown.style.display = cartDropdown.style.display === 'block' ? 'none' : 'block';
+                        });
+
+                        // Close the cart dropdown when clicking outside
+                        document.addEventListener('click', (e) => {
+                            if (!cartIcon.contains(e.target) && !cartDropdown.contains(e.target)) {
+                                cartDropdown.style.display = 'none';
+                            }
+                        });
+                    });
+                </script>
                 <li class="nav-item cursor-pointer  d-none d-lg-block"><a href="logoin.html"
                         class="btn btn-13 d-flex align-items-center justify-content-center fs-4 border border-1 border-black"
                         style="letter-spacing: 1px; outline: none; margin: 0 0.3rem; min-width: 8rem; height: 4rem;">Log

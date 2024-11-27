@@ -9,7 +9,7 @@ closeMenu.addEventListener("click", (e) => {
   sideMenu.classList.remove("active");
   document.body.style.overflow = "scroll";
 });
-
+// -------------------------------------------------
 document.addEventListener("DOMContentLoaded", () => {
   const cartContainer = document.getElementById("cart-container-1"); // Cart page container
   const totalAmountElement = document.getElementById("total-amount-1"); // Total on cart page
@@ -158,6 +158,9 @@ document.addEventListener("DOMContentLoaded", () => {
   // Initial render of both carts
   updateAllCarts();
 });
+// -------------------------------------------------
+// -------------------------------------------------
+
 
 // Accodian
 document.querySelectorAll(".accordion-header").forEach((header) => {
